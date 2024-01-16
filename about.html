@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Redstore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+</head>
+<body>
+   
+    
+
+        <div class="container contain">
+            <div class="navbar">
+                <div class="logo">
+                   <a href="index.html"><img src="images/logo.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="menuitem">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+              <a href="cart.html"><img src="images/cart.png"  width="30px" height="30px"></a>
+                <img src="images/menu.png"  class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="header">
+            <div id="rowa" class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout <br> A New Style!</h1>
+                    <p>Success isn't always about greatness. It's about consistency. Consistent <br> hard work gains success. Greatness will come.</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2 aboutimg">
+                    <img src="about2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+    <div class="smallcontainer single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="" alt="">
+            </div>
+            <div class="col-2">
+                <h1>Red printed T-shirt by HRX</h1>
+                <p>
+                    Give your summer wardrobe a style upgrade with the HRX Men's active T-shirt. 
+                    Team it with a pair of shorts for your morning workout or a denims for evening out 
+                    with the guys.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
+
+
+
+<!-- footer -->
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+       <p> Download App for android and ios mobile phones</p>
+       <div class="app-logo">
+        <img src="images/play-store.png">
+        <img src="images/app-store.png">
+       </div>
+      </div>
+      <div class="footer-col-2">
+        <img src="images/logo-white.png">
+       <p> Our purpose is to sustainably make the pleasure and benefit of sport accessible
+        to many
+       </p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+       <ul>
+        <li>Coupons</li>
+        <li>Blog Post</li>
+        <li>Return Policy</li>
+        <li>Join Affiliate</li>
+       </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow us</h3>
+       <ul>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>x (twitter)</li>
+        <li>Youtube</li>
+       </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="Copyright">Copyright 2024 - Dami Tech</p>
+  </div>
+</div>
+
+
+<!-- js for toggle -->
+
+<script>
+  var menuitem = document.getElementById("menuitem")
+
+  menuitem.style.maxHeight = "0px";
+
+function   menutoggle() {
+  if(menuitem.style.maxHeight == "0px"){
+    menuitem.style.maxHeight = "200px"
+  }
+  else {
+    menuitem.style.maxHeight = "0px"
+  }
+}
+</script>
+</body>
+</html>
